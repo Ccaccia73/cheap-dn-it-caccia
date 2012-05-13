@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Contact Us</title>
+
+<link rel="stylesheet" type="text/css" href="css/theme1.css"
+	title="default" />
+<link rel="alternate stylesheet" type="text/css" href="theme0.css"
+	title="alt" />
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<h2>Cheap Vacations</h2>
+		<hr />
+		<br />
+		<h3>Contact Us</h3>
+		<br /> <br /> Do you have a question? do you want to provide some
+		feedback? Just fill in the form!<br /> <br /> <small><i>
+				(fields marked with * are required)<br /> <br />
+		</i></small> <br />
+
+		<form action="form_action.asp" method="get">
+			<label>First Name*: <input type="text" name="fname" /></label><br />
+			<label>Last Name*: <input type="text" name="lname" /></label><br />
+			<label>Email*: <input type="text" name="email" /></label><br /> <label>Phone:
+				<input type="text" name="phone" />
+			</label><br /> <label>Are you contacting us for*: <br /> <select
+				name="category">
+					<option>- please select -</option>
+					<option value="Question">A question</option>
+					<option value="Feedback">Some feedback</option>
+					<option value="Suggestions">Suggestions</option>
+					<option value="Complaint">A complaint</option>
+			</select>
+
+			</label><br /><br /> <label>Type your message here:<br /> <br />
+			<textarea name="msg" cols="30" rows="15"></textarea>
+			</label> <br /> <br /> <br /> Do you wish to receive our newsletter?<br />
+			<input type="radio" name="newsletter" value="yes" /> Yes <input
+				type="radio" name="newsletter" value="no" /> No <br /> <br /> <input
+				type="submit" value="Submit" /> <input type="reset" value="Clear" />
+		</form>
+		<br />
+
+		<div class="push"></div>
+	</div>
+
+	<div id="footer">
+		<p>
+			<a href="home.jsp">Home</a> | <a href="about.html">About</a> | <a
+				href="contact.html">Contact Us</a>
+		</p>
+	</div>
+</body>
+
+</html>
