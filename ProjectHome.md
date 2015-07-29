@@ -1,0 +1,1 @@
+CheapVacations is a web application to organize last minute vacation packages by combining flight, hotel and local attractions.
